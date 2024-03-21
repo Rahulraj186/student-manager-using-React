@@ -1,0 +1,32 @@
+h1 {
+  margin-left: 500px;
+}
+h2 {
+  margin-left: 500px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-form label {
+  margin-bottom: 0.5rem;
+}
+
+.student-form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.student-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+.student-form button:hover {
+  background-color: green;
+}
